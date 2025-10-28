@@ -1,10 +1,14 @@
+/* Fuentes de google importadas */
+@import url('https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
 /* ESTILOS GENERALES DE MI PAGINA */
 html{
-    background-color: aliceblue;
+    background-color: #1a1a2e;
 }
 body{
     width: 1100px;
-    background-color: chartreuse;
+    background-color: #0f0f1e;
     margin: 0 auto;
 }
 
@@ -14,16 +18,25 @@ header h1{
     font-size: 110px;
     padding: 10px 5px;
     text-align: center;
+    font-family: 'Vampiro One', cursive;
+    color: #e94560;
+    text-shadow: 0 0 20px rgba(233, 69, 96, 0.5);
 }
 nav {
     overflow: hidden;
-    background-color: aliceblue;
+    background-color: #16213e;
 }
 nav a{
     float: left;
     padding: 10px 5px;
     margin: 0 10px;
     text-decoration: none;
+    font-family: 'Agbalumo';
+    color: #00adb5;
+    transition: color 0.3s;
+}
+nav a:hover{
+    color: #ffd369;
 }
 #sesion {
     float: right;
@@ -35,15 +48,16 @@ main{
 }
 aside, section{
     float: left;
-    height: 850px;
+    height: 950px;
 }
 aside{
-    background-color: aqua;
+    background-color: #16213e;
     width: 300px;
 }
 section{
-    background-color: rgb(231, 158, 158);
+    background-color: #0f3460;
     width: 800px;
+    color: #ffffff;
 }
 
 /* Estilos del aside */
@@ -52,21 +66,23 @@ aside img{
     height: auto;
 }
 #listaEnlaces{
-    background-color: bisque;
+    background-color: #ffd369;
     height: 250px;
     padding: 1px;
 }
 #ubicacion{
-    background-color: rgb(9, 169, 57);
+    background-color: #00adb5;
     height: 120px;
     position: absolute;
     bottom: 59px;
     width: 300px;
+    color: #ffffff;
 }
 #ubicacion p{
     margin: 0;
     padding: 10px 0;
     text-align: center;
+    font-family: "Vend Sans", sans-serif;
 }
 #listaEnlaces ul{
     margin: 0;
@@ -80,6 +96,11 @@ li a{
     font-size: 30px;
     display: block;
     margin: 15px 15px;
+    color: #0f0f1e;
+    transition: color 0.3s;
+}
+li a:hover{
+    color: #e94560;
 }
 
 /* Estilos del section */
@@ -90,6 +111,7 @@ section h1, h2, p{
 }
 section h1, h2{
     text-align: center;
+    color: #ffd369;
 }
 #caratulas{
     padding: 5px 13px;
@@ -103,25 +125,27 @@ section h1, h2{
 /* Estilos para el formulario */
 
 form{
-    background-color: cadetblue;
+    background-color: #1a1a2e;
     width: 320px;
     margin: 0 auto;
     padding: 10px;
     overflow: hidden;
+    border: 2px solid #00adb5;
+    border-radius: 10px;
 }
 
-/* SECCIÓN DE DATOS USUARIO - CORREGIDA */
+/* SECCIÓN DE DATOS USUARIO */
 #datosUsuario{
     overflow: hidden;
-    /* para que el div contenga los elementos flotados */
 }
 
 #datosUsuario label{
     float: left;
-    clear: left; /* evita que las labels se peguen */
+    clear: left;
     display: block;
     margin: 5px 0;
-    width: 100px; /* Le doy un ancho fijo para alinearlas */
+    width: 100px;
+    color: #ffd369;
 }
 
 #datosUsuario input[type="text"], 
@@ -130,12 +154,16 @@ form{
     float: right;
     margin: 5px 0;
     padding-left: 5px;
-    width: 180px; 
+    width: 180px;
+    background-color: #16213e;
+    border: 1px solid #00adb5;
+    color: #ffffff;
+    padding: 5px;
 }
 
-/* SECCIÓN DE OTROS DATOS - CORREGIDA */
+/* SECCIÓN DE OTROS DATOS */
 #otrosDatos{
-    clear: both; /* Rompe el flotamiento anterior */
+    clear: both;
     overflow: hidden;
 }
 
@@ -145,26 +173,53 @@ ul{
 }
 
 #otrosDatos > label{
-    display: block; /* Lo convierto a elemtno de bloque */
+    display: block;
     padding: 10px 0;
     clear: both;
+    color: #ffd369;
+}
+
+#otrosDatos li label{
+    color: #ffffff;
 }
 
 #otrosDatos select{
     width: 100%;
     margin: 10px 0;
     padding: 5px;
+    background-color: #16213e;
+    border: 1px solid #00adb5;
+    color: #ffffff;
 }
 
 #otrosDatos p{
     font-size: 10px;
     text-align: center;
+    color: #00adb5;
 }
 
 input[type="submit"]{
     display: block;
     width: 140px;
-    padding-left: 10px;
+    padding: 10px;
     margin: 0 auto;
     border: none;
+    background-color: #e94560;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover{
+    background-color: #00adb5;
+}
+
+footer{
+    background-color: #1a1a2e;
+    color: #00adb5;
+    text-align: center;
+    padding: 15px;
+    clear: both;
 }
