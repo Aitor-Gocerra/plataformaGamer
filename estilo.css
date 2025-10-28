@@ -48,7 +48,7 @@ main{
 }
 aside, section{
     float: left;
-    height: 950px;
+    height: 1050px;
 }
 aside{
     background-color: #16213e;
@@ -109,17 +109,34 @@ section h1, h2, p{
     margin: 0;
     padding: 5px;
 }
+section p::first-letter{
+    font-size: 2em;
+}
+section p:nth-of-type(even){
+    color:#6eaefb;
+}
+span{
+    font-weight: bold;
+    color: red;
+}
 section h1, h2{
     text-align: center;
     color: #ffd369;
 }
 #caratulas{
-    padding: 5px 13px;
+    padding: 5px 10px;
     align-items: center;
 }
 #caratulas img{
-    width: 190px;
+    width: 180px;
     height: auto;
+}
+#caratulas #gta{
+    width: 193px;
+    height: auto;
+}
+h2{
+    margin: 20px 0;
 }
 
 /* Estilos para el formulario */
