@@ -24,7 +24,7 @@ header h1{
 }
 nav {
     overflow: hidden;
-    background-color: #16213e;
+    background-color: c;
 }
 nav a{
     float: left;
@@ -73,8 +73,8 @@ aside img{
 #ubicacion{
     background-color: #00adb5;
     height: 120px;
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
+    bottom: 60px;
     width: 300px;
     color: #ffffff;
 }

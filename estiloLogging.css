@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+div{
+    background-color: #202043;
+    width: 350px;
+    height: 450px;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+div img{
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+label{
+    color:rgb(236, 255, 95);
+    font-family: 'Roboto', cursive;
+    font-size: 1.4em;
+    float: left;
+    width: 120px;
+    margin-top: 10px;
+}
+input[type="text"], input[type="password"]{
+    float: right;
+    margin-top: 10px;
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid rgb(48, 28, 200);
+    color:#913784;
+    padding-left: 10px;
+}
+div::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+input[type="submit"]{
+    margin: 35px 95px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #3b3b84;
+    color: aquamarine;
+    cursor: pointer;
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 1.5em;
+    padding: 10px;
+}
+input[type="submit"]:hover{
+    background-color: #fd3838;
+}
