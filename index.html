@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VIDEOGAMER</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <header>
+            <h1>VIDEOGAMER</h1>
+            <nav>
+                <a href="#">INICIO</a>
+                <a href="#" target="_blank">HISTORIA</a>
+                <a href="#" target="_blank">CONTACTO</a>
+                <a href="#" target="_blank" id="sesion">INICIAR SESION</a>
+            </nav>
+        </header>
+        <main>
+            <aside>
+                <img src="imagenes/logo.png" alt="logo de la empresa">
+                <div id="listaEnlaces">
+                    <ul>
+                        <li><a href="#">Juego de la semana</a></li>
+                        <li><a href="#">Juego del mes</a></li>
+                        <li><a href="#">Juego del año</a></li>
+                        <li><a href="#">Juego recomendados por usuarios</a></li>
+                    </ul>
+                </div>
+                <div id="ubicacion">
+                    <p>DONDE ESTAMOS</p>
+                    <ul>
+                        <li>Avenida de la Academia, 14</li>
+                        <li>06010</li>
+                        <li>Badajoz</li>
+                    </ul>
+                </div>
+            </aside>
+            <section>
+                <h1>JUEGOS RECOMENDAMOS POR NUESTROS EXPERTOS</h1>
+                <p>
+                    Aqui encontraras las mejores recomendaciones que nuestros expertos seleccionan para ti, para que le saques el mayor 
+                    partido a tu suscripción.
+                </p>
+                <div id="caratulas">
+                    <img src="imagenes/video1.png" alt="">
+                    <img src="imagenes/video2.png" alt="">
+                    <img src="imagenes/video3.png" alt="" id="gta">
+                    <img src="imagenes/video4.png" alt="">
+                </div>
+                <h2>¿AUN NO TE HAS SUSCRITO? HAZLO AHORA</h2>
+                <form>
+                    <div id="datosUsuario">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" placeholder="tu_nombre" required>
+
+                        <label for="telefono">Telefono:</label>
+                        <input type="tel" name="telefono">
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div id="otrosDatos">
+                        <label for="genero">¿Que generos te gustan?</label>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="genero[]" value="Shooters">
+                                <label for="Shooters">Shooters</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="genero[]" value="Lucha">
+                                <label for="Lucha">Lucha</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="genero[]" value="Simulacion">
+                                <label for="Simulacion">Simulación</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="genero[]" value="Aventura">
+                                <label for="Aventura">Aventura</label>
+                            </li>
+                            <li>    
+                                <input type="checkbox" name="genero[]" value="Estrategia">
+                            <label for="Estrategia">Estrategia</label><br>
+                            </li>
+                        </ul>
+                        <label for="plataforma">¿Con que plataforma sueles jugar?</label>
+                        <select name="plataforma">
+                            <option value="">--Selecciona--</option>
+                            <option value="PC">PC</option>
+                            <option value="PS5">PS5</option>
+                            <option value="XBOX">XBOX</option>
+                            <option value="Nintendo">Nintendo</option>
+                        </select>
+                        <p>Al enviar estas aceptando nuestra politica de proteccion de datos asi como el envio de publicidad a su email</p>
+                        <input type="submit" value="Enviar">
+                    </div>
+                    
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 VIDEOGAMER. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>

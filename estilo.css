@@ -1,0 +1,170 @@
+/* ESTILOS GENERALES DE MI PAGINA */
+html{
+    background-color: aliceblue;
+}
+body{
+    width: 1100px;
+    background-color: chartreuse;
+    margin: 0 auto;
+}
+
+/* CABECERA */
+header h1{
+    margin: 0;
+    font-size: 110px;
+    padding: 10px 5px;
+    text-align: center;
+}
+nav {
+    overflow: hidden;
+    background-color: aliceblue;
+}
+nav a{
+    float: left;
+    padding: 10px 5px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+#sesion {
+    float: right;
+}
+
+/* CUERPO DE MI PAGINA */
+main{
+    overflow: hidden;
+}
+aside, section{
+    float: left;
+    height: 850px;
+}
+aside{
+    background-color: aqua;
+    width: 300px;
+}
+section{
+    background-color: rgb(231, 158, 158);
+    width: 800px;
+}
+
+/* Estilos del aside */
+aside img{
+    width: 300px;
+    height: auto;
+}
+#listaEnlaces{
+    background-color: bisque;
+    height: 250px;
+    padding: 1px;
+}
+#ubicacion{
+    background-color: rgb(9, 169, 57);
+    height: 120px;
+    position: absolute;
+    bottom: 59px;
+    width: 300px;
+}
+#ubicacion p{
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+#listaEnlaces ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    margin: 15px 15px;
+}
+
+/* Estilos del section */
+
+section h1, h2, p{
+    margin: 0;
+    padding: 5px;
+}
+section h1, h2{
+    text-align: center;
+}
+#caratulas{
+    padding: 5px 13px;
+    align-items: center;
+}
+#caratulas img{
+    width: 190px;
+    height: auto;
+}
+
+/* Estilos para el formulario */
+
+form{
+    background-color: cadetblue;
+    width: 320px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* SECCIÓN DE DATOS USUARIO - CORREGIDA */
+#datosUsuario{
+    overflow: hidden;
+    /* para que el div contenga los elementos flotados */
+}
+
+#datosUsuario label{
+    float: left;
+    clear: left; /* evita que las labels se peguen */
+    display: block;
+    margin: 5px 0;
+    width: 100px; /* Le doy un ancho fijo para alinearlas */
+}
+
+#datosUsuario input[type="text"], 
+#datosUsuario input[type="tel"], 
+#datosUsuario input[type="email"]{
+    float: right;
+    margin: 5px 0;
+    padding-left: 5px;
+    width: 180px; 
+}
+
+/* SECCIÓN DE OTROS DATOS - CORREGIDA */
+#otrosDatos{
+    clear: both; /* Rompe el flotamiento anterior */
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0 0 0 20px; 
+}
+
+#otrosDatos > label{
+    display: block; /* Lo convierto a elemtno de bloque */
+    padding: 10px 0;
+    clear: both;
+}
+
+#otrosDatos select{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+#otrosDatos p{
+    font-size: 10px;
+    text-align: center;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 140px;
+    padding-left: 10px;
+    margin: 0 auto;
+    border: none;
+}
