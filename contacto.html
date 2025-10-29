@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CONTACTO</title>
+        <link rel="stylesheet" href="estiloContacto.css">
+    </head>
+    <body>
+       <header>
+            <h1>GAME·STORE</h1>
+       </header>
+       <nav>
+            <a href="index.html">INICIO</a>
+            <a href="#">HISTORIA</a>
+            <a href="contacto.html">CONTACTO</a>
+            <a href="logging.html" id="sesion">INICIAR SESION</a>
+       </nav>
+       <main>
+            <form action="enviarDatos.php">
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre">
+                </div>
+                
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+                </div>
+                
+                <label for="mensaje">Consulta</label>
+                <textarea name="mensaje" rows="7"></textarea>
+                
+                <input type="submit" value="ENVIAR">
+                <input type="reset" value="LIMPIAR">
+            </form>
+       </main>
+       <footer>
+            <p>&copy; 2025 VIDEOGAMER. Todos los derechos reservados.</p>
+       </footer>
+    </body>
+</html>

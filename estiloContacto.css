@@ -1,0 +1,93 @@
+html{
+    background-color: #1a1a2e;
+}
+body{
+    width: 1100px;
+    background-color: #0f0f1e;
+    margin: 0 auto;
+}
+
+/* Estilos de la cabecera */
+
+header{
+    padding: 10px;
+}
+header h1{
+   color: chocolate;
+   text-align: center; 
+   font-size: 140px;
+   margin: 0;
+}
+nav{
+    display: flow-root;
+    background-color: #1a1a2e;
+    
+}
+nav a{
+    float: left;
+    margin-left: 20px;
+    text-decoration: none;
+    color:aquamarine;
+}
+nav> a#sesion{
+    float: right;
+    margin-right: 20px;
+}
+
+/* Estilos del main */
+
+form{
+    width: 380px;
+    background-color: beige;
+    margin: 10px auto;
+    padding: 10px;
+}
+.campo{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+label{
+    float: left;
+    width: 80px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="email"]{
+    float: right;
+    width: 260px;
+    padding-left: 10px;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+textarea{
+    width: 375px;
+    clear: both;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+input[type="submit"], input[type="reset"]{
+    margin: 20px;
+    padding: 10px;
+    background-color: #1a1a2e;
+    color: aqua;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(229, 224, 216);
+    
+}
+
+footer{
+    padding: 20px 0;
+}
+footer p{
+    color: chocolate;
+    text-align: center; 
+    font-size: 20px;
+    margin: 0;
+}
