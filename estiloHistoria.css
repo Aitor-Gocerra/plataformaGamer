@@ -1,0 +1,91 @@
+html{
+    background-color: azure;
+}
+body{
+    background-color: rgb(27, 11, 97);
+    width: 1240px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(27, 11, 97);
+}
+header h1{
+    font-size: 130px;
+    margin: 0;
+    text-align: center;
+    color: #e94560;
+    text-shadow: 0 0 20px brown;
+}
+nav{
+    background-color: #e94560;
+    padding: 5px;
+    overflow: hidden;
+    position: sticky;
+    top: 20px;
+}
+nav a{
+    margin-left: 20px;
+    float: left;
+    margin: 5px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+nav > a#sesion{
+    float: right;
+    margin-right: 15px;
+}
+nav a:hover{
+    color:#90cc20;
+    font-style: italic;
+}
+main{
+    overflow: hidden;
+}
+main h1{
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    color: #e94560;
+    text-shadow: 0 0 20px brown;
+}
+main section{
+    background-color: rgb(27, 11, 97);
+    float: left;
+    margin: 10px 0;
+}
+#izquierdo{
+    margin-left: 280px;
+    border-right: 5px solid rgb(17, 81, 219);
+}
+
+.tarjeta{
+    width: 350px;
+    background-color: antiquewhite;
+    margin-top: 100px;
+    padding: 10px;
+}
+#inicial{
+    margin-top: 0;
+}
+h2{
+    margin: 0;
+}
+#enlace{
+    position: fixed;
+    left: 300px;
+    bottom: 10px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    color: #e94560;
+    text-shadow: 0 0 20px brown;
+}
+footer p{
+    margin: 0;
+}
