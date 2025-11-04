@@ -104,7 +104,9 @@ li a:hover{
 }
 
 /* Estilos del section */
-
+section{
+    overflow: hidden;
+}
 section h1, h2, p{
     margin: 0;
     padding: 5px;
